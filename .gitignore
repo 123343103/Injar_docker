@@ -7,3 +7,4 @@ mysql/data/ibdata1
 mysql/data/ibtmp1
 nginx/error.log
 nginx/.nginx.conf.swp
+nginx/access.log
