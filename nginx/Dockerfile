@@ -11,7 +11,6 @@ RUN yum -y install wget gcc pcre-devel zlib-devel make \
     && yum clean all \
     && rm -f /usr/local/nginx/conf/nginx.conf \
     && rm -f /usr/local/nginx/conf/fastcgi_params
-RUN echo "Asia/shanghai" > /etc/timezone
 COPY nginx.conf /usr/local/nginx/conf/nginx.conf
 COPY fastcgi_params /usr/local/nginx/conf/fastcgi_params
 EXPOSE 80
