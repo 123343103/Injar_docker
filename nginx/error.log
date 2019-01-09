@@ -1425,3 +1425,13 @@
 2019/01/08 14:59:31 [notice] 1#0: OS: Linux 4.9.125-linuxkit
 2019/01/08 14:59:31 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
 2019/01/08 14:59:31 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 01:59:18 [notice] 1#0: using the "epoll" event method
+2019/01/09 01:59:18 [notice] 1#0: using the "epoll" event method
+2019/01/09 01:59:18 [notice] 1#0: nginx/1.14.0
+2019/01/09 01:59:18 [notice] 1#0: nginx/1.14.0
+2019/01/09 01:59:18 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 01:59:18 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 01:59:18 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 01:59:18 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 01:59:18 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 01:59:18 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
