@@ -2774,3 +2774,1105 @@
 2019/01/09 09:00:24 [notice] 1#0: worker process 9 exited with code 0
 2019/01/09 09:00:24 [notice] 1#0: exit
 2019/01/09 09:00:24 [notice] 1#0: exit
+2019/01/09 09:11:46 [notice] 1#0: using the "epoll" event method
+2019/01/09 09:11:46 [notice] 1#0: using the "epoll" event method
+2019/01/09 09:11:46 [notice] 1#0: nginx/1.14.0
+2019/01/09 09:11:46 [notice] 1#0: nginx/1.14.0
+2019/01/09 09:11:46 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 09:11:46 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 09:11:46 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 09:11:46 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 09:11:46 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 09:11:46 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 09:11:46 [notice] 1#0: start worker processes
+2019/01/09 09:11:46 [notice] 1#0: start worker processes
+2019/01/09 09:11:46 [notice] 1#0: start worker process 6
+2019/01/09 09:11:46 [notice] 1#0: start worker process 6
+2019/01/09 09:11:46 [notice] 1#0: start worker process 7
+2019/01/09 09:11:46 [notice] 1#0: start worker process 7
+2019/01/09 09:11:46 [notice] 1#0: start worker process 8
+2019/01/09 09:11:46 [notice] 1#0: start worker process 8
+2019/01/09 09:11:46 [notice] 1#0: start worker process 9
+2019/01/09 09:11:46 [notice] 1#0: start worker process 9
+2019/01/09 09:12:09 [info] 6#0: *2 client closed connection while waiting for request, client: 172.18.0.1, server: 0.0.0.0:80
+2019/01/09 09:13:07 [error] 6#0: *4 open() "/usr/local/nginx/html/yingjia_website/apartment" failed (2: No such file or directory), client: 172.18.0.1, server: local-wx.injar.cn, request: "GET /apartment HTTP/1.1", host: "local-wx.injar.cn"
+2019/01/09 09:13:07 [error] 6#0: *4 open() "/usr/local/nginx/html/yingjia_website/apartment" failed (2: No such file or directory), client: 172.18.0.1, server: local-wx.injar.cn, request: "GET /apartment HTTP/1.1", host: "local-wx.injar.cn"
+2019/01/09 09:13:07 [error] 6#0: *4 open() "/usr/local/nginx/html/yingjia_website/apartment" failed (2: No such file or directory), client: 172.18.0.1, server: local-wx.injar.cn, request: "GET /apartment HTTP/1.1", host: "local-wx.injar.cn"
+2019/01/09 09:13:42 [info] 6#0: *5 client closed connection while waiting for request, client: 172.18.0.1, server: 0.0.0.0:80
+2019/01/09 09:13:42 [error] 6#0: *4 open() "/usr/local/nginx/html/yingjia_website/apartment" failed (2: No such file or directory), client: 172.18.0.1, server: local-wx.injar.cn, request: "GET /apartment HTTP/1.1", host: "local-wx.injar.cn"
+2019/01/09 09:13:42 [error] 6#0: *4 open() "/usr/local/nginx/html/yingjia_website/apartment" failed (2: No such file or directory), client: 172.18.0.1, server: local-wx.injar.cn, request: "GET /apartment HTTP/1.1", host: "local-wx.injar.cn"
+2019/01/09 09:13:42 [error] 6#0: *4 open() "/usr/local/nginx/html/yingjia_website/apartment" failed (2: No such file or directory), client: 172.18.0.1, server: local-wx.injar.cn, request: "GET /apartment HTTP/1.1", host: "local-wx.injar.cn"
+2019/01/09 09:14:28 [info] 8#0: *7 client closed connection while waiting for request, client: 172.18.0.1, server: 0.0.0.0:80
+2019/01/09 09:30:19 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 09:30:19 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 09:30:19 [notice] 6#0: exiting
+2019/01/09 09:30:19 [notice] 6#0: exiting
+2019/01/09 09:30:19 [notice] 8#0: exiting
+2019/01/09 09:30:19 [notice] 8#0: exiting
+2019/01/09 09:30:19 [notice] 6#0: exit
+2019/01/09 09:30:19 [notice] 8#0: exit
+2019/01/09 09:30:19 [notice] 7#0: exiting
+2019/01/09 09:30:19 [notice] 7#0: exiting
+2019/01/09 09:30:19 [notice] 9#0: exiting
+2019/01/09 09:30:19 [notice] 9#0: exiting
+2019/01/09 09:30:19 [notice] 7#0: exit
+2019/01/09 09:30:19 [notice] 9#0: exit
+2019/01/09 09:30:19 [notice] 1#0: signal 17 (SIGCHLD) received from 8
+2019/01/09 09:30:19 [notice] 1#0: signal 17 (SIGCHLD) received from 8
+2019/01/09 09:30:19 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 09:30:19 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 09:30:19 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 09:30:19 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 09:30:19 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 09:30:19 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 09:30:19 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 09:30:19 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 09:30:19 [notice] 1#0: exit
+2019/01/09 09:30:19 [notice] 1#0: exit
+2019/01/09 09:30:56 [notice] 1#0: using the "epoll" event method
+2019/01/09 09:30:56 [notice] 1#0: using the "epoll" event method
+2019/01/09 09:30:56 [notice] 1#0: nginx/1.14.0
+2019/01/09 09:30:56 [notice] 1#0: nginx/1.14.0
+2019/01/09 09:30:56 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 09:30:56 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 09:30:56 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 09:30:56 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 09:30:56 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 09:30:56 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 09:30:56 [notice] 1#0: start worker processes
+2019/01/09 09:30:56 [notice] 1#0: start worker processes
+2019/01/09 09:30:56 [notice] 1#0: start worker process 6
+2019/01/09 09:30:56 [notice] 1#0: start worker process 6
+2019/01/09 09:30:56 [notice] 1#0: start worker process 7
+2019/01/09 09:30:56 [notice] 1#0: start worker process 7
+2019/01/09 09:30:56 [notice] 1#0: start worker process 8
+2019/01/09 09:30:56 [notice] 1#0: start worker process 8
+2019/01/09 09:30:56 [notice] 1#0: start worker process 9
+2019/01/09 09:30:56 [notice] 1#0: start worker process 9
+2019/01/09 09:31:27 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 09:31:27 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 09:31:27 [notice] 6#0: exiting
+2019/01/09 09:31:27 [notice] 6#0: exiting
+2019/01/09 09:31:27 [notice] 9#0: exiting
+2019/01/09 09:31:27 [notice] 9#0: exiting
+2019/01/09 09:31:27 [notice] 9#0: exit
+2019/01/09 09:31:27 [notice] 8#0: exiting
+2019/01/09 09:31:27 [notice] 8#0: exiting
+2019/01/09 09:31:27 [notice] 7#0: exiting
+2019/01/09 09:31:27 [notice] 8#0: exit
+2019/01/09 09:31:27 [notice] 7#0: exiting
+2019/01/09 09:31:27 [notice] 7#0: exit
+2019/01/09 09:31:27 [notice] 6#0: exit
+2019/01/09 09:31:27 [notice] 1#0: signal 17 (SIGCHLD) received from 8
+2019/01/09 09:31:27 [notice] 1#0: signal 17 (SIGCHLD) received from 8
+2019/01/09 09:31:27 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 09:31:27 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 09:31:27 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 09:31:27 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 09:31:27 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 09:31:27 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 09:31:27 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 09:31:27 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 09:31:27 [notice] 1#0: signal 17 (SIGCHLD) received from 6
+2019/01/09 09:31:27 [notice] 1#0: signal 17 (SIGCHLD) received from 6
+2019/01/09 09:31:27 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 09:31:27 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 09:31:27 [notice] 1#0: exit
+2019/01/09 09:31:27 [notice] 1#0: exit
+2019/01/09 09:34:08 [notice] 1#0: using the "epoll" event method
+2019/01/09 09:34:08 [notice] 1#0: using the "epoll" event method
+2019/01/09 09:34:08 [notice] 1#0: nginx/1.14.0
+2019/01/09 09:34:08 [notice] 1#0: nginx/1.14.0
+2019/01/09 09:34:08 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 09:34:08 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 09:34:08 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 09:34:08 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 09:34:08 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 09:34:08 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 09:34:08 [notice] 1#0: start worker processes
+2019/01/09 09:34:08 [notice] 1#0: start worker processes
+2019/01/09 09:34:08 [notice] 1#0: start worker process 6
+2019/01/09 09:34:08 [notice] 1#0: start worker process 6
+2019/01/09 09:34:08 [notice] 1#0: start worker process 7
+2019/01/09 09:34:08 [notice] 1#0: start worker process 7
+2019/01/09 09:34:08 [notice] 1#0: start worker process 8
+2019/01/09 09:34:08 [notice] 1#0: start worker process 8
+2019/01/09 09:34:08 [notice] 1#0: start worker process 9
+2019/01/09 09:34:08 [notice] 1#0: start worker process 9
+2019/01/09 09:35:08 [info] 9#0: *2 client closed connection while waiting for request, client: 172.18.0.1, server: 0.0.0.0:80
+2019/01/09 09:35:19 [info] 7#0: *4 client closed connection while waiting for request, client: 172.18.0.1, server: 0.0.0.0:80
+2019/01/09 09:39:30 [info] 8#0: *8 client closed connection while waiting for request, client: 172.18.0.1, server: 0.0.0.0:80
+2019/01/09 09:39:45 [info] 6#0: *11 client closed connection while waiting for request, client: 172.18.0.1, server: 0.0.0.0:80
+2019/01/09 09:40:15 [info] 8#0: *13 client closed connection while waiting for request, client: 172.18.0.1, server: 0.0.0.0:80
+2019/01/09 09:44:17 [error] 6#0: *14 open() "/usr/local/nginx/html/yingjia_admin/admin/official/estateInfo" failed (2: No such file or directory), client: 172.18.0.1, server: local-api.injar.cn, request: "GET /official/estateInfo HTTP/1.1", host: "local-api.injar.cn"
+2019/01/09 09:44:17 [error] 6#0: *14 open() "/usr/local/nginx/html/yingjia_admin/admin/official/estateInfo" failed (2: No such file or directory), client: 172.18.0.1, server: local-api.injar.cn, request: "GET /official/estateInfo HTTP/1.1", host: "local-api.injar.cn"
+2019/01/09 09:44:17 [error] 6#0: *14 open() "/usr/local/nginx/html/yingjia_admin/admin/official/estateInfo" failed (2: No such file or directory), client: 172.18.0.1, server: local-api.injar.cn, request: "GET /official/estateInfo HTTP/1.1", host: "local-api.injar.cn"
+2019/01/09 09:44:28 [info] 6#0: *15 client closed connection while waiting for request, client: 172.18.0.1, server: 0.0.0.0:80
+2019/01/09 10:00:48 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 10:00:48 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 10:00:48 [notice] 9#0: exiting
+2019/01/09 10:00:48 [notice] 9#0: exiting
+2019/01/09 10:00:48 [notice] 7#0: exiting
+2019/01/09 10:00:48 [notice] 7#0: exiting
+2019/01/09 10:00:48 [notice] 9#0: exit
+2019/01/09 10:00:48 [notice] 7#0: exit
+2019/01/09 10:00:48 [notice] 6#0: exiting
+2019/01/09 10:00:48 [notice] 6#0: exiting
+2019/01/09 10:00:48 [notice] 8#0: exiting
+2019/01/09 10:00:48 [notice] 8#0: exiting
+2019/01/09 10:00:48 [notice] 6#0: exit
+2019/01/09 10:00:48 [notice] 8#0: exit
+2019/01/09 10:00:48 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 10:00:48 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 10:00:48 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 10:00:48 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 10:00:48 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 10:00:48 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 10:00:48 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 10:00:48 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 10:00:48 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 10:00:48 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 10:00:48 [notice] 1#0: exit
+2019/01/09 10:00:48 [notice] 1#0: exit
+2019/01/09 10:01:10 [notice] 1#0: using the "epoll" event method
+2019/01/09 10:01:10 [notice] 1#0: using the "epoll" event method
+2019/01/09 10:01:10 [notice] 1#0: nginx/1.14.0
+2019/01/09 10:01:10 [notice] 1#0: nginx/1.14.0
+2019/01/09 10:01:10 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 10:01:10 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 10:01:10 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 10:01:10 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 10:01:10 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 10:01:10 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 10:01:10 [notice] 1#0: start worker processes
+2019/01/09 10:01:10 [notice] 1#0: start worker processes
+2019/01/09 10:01:10 [notice] 1#0: start worker process 6
+2019/01/09 10:01:10 [notice] 1#0: start worker process 6
+2019/01/09 10:01:10 [notice] 1#0: start worker process 7
+2019/01/09 10:01:10 [notice] 1#0: start worker process 7
+2019/01/09 10:01:10 [notice] 1#0: start worker process 8
+2019/01/09 10:01:10 [notice] 1#0: start worker process 8
+2019/01/09 10:01:10 [notice] 1#0: start worker process 9
+2019/01/09 10:01:10 [notice] 1#0: start worker process 9
+2019/01/09 10:01:34 [info] 9#0: *2 client closed connection while waiting for request, client: 172.18.0.1, server: 0.0.0.0:80
+2019/01/09 10:01:57 [info] 9#0: *7 client closed connection while waiting for request, client: 172.18.0.1, server: 0.0.0.0:80
+2019/01/09 10:04:09 [info] 7#0: *10 client closed connection while waiting for request, client: 172.18.0.1, server: 0.0.0.0:80
+2019/01/09 10:07:03 [info] 9#0: *13 client closed connection while waiting for request, client: 172.18.0.1, server: 0.0.0.0:80
+2019/01/09 10:07:33 [info] 7#0: *15 client closed connection while waiting for request, client: 172.18.0.1, server: 0.0.0.0:80
+2019/01/09 10:25:28 [info] 9#0: *19 client closed connection while waiting for request, client: 172.18.0.1, server: 0.0.0.0:80
+2019/01/09 10:25:43 [info] 6#0: *21 client closed connection while waiting for request, client: 172.18.0.1, server: 0.0.0.0:80
+2019/01/09 10:28:43 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 10:28:43 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 10:28:43 [notice] 6#0: exiting
+2019/01/09 10:28:43 [notice] 6#0: exiting
+2019/01/09 10:28:43 [notice] 7#0: exiting
+2019/01/09 10:28:43 [notice] 7#0: exiting
+2019/01/09 10:28:43 [notice] 8#0: exiting
+2019/01/09 10:28:43 [notice] 8#0: exiting
+2019/01/09 10:28:43 [notice] 9#0: exiting
+2019/01/09 10:28:43 [notice] 9#0: exiting
+2019/01/09 10:28:43 [notice] 6#0: exit
+2019/01/09 10:28:43 [notice] 9#0: exit
+2019/01/09 10:28:43 [notice] 7#0: exit
+2019/01/09 10:28:43 [notice] 8#0: exit
+2019/01/09 10:28:43 [notice] 1#0: signal 17 (SIGCHLD) received from 6
+2019/01/09 10:28:43 [notice] 1#0: signal 17 (SIGCHLD) received from 6
+2019/01/09 10:28:43 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 10:28:43 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 10:28:43 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 10:28:43 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 10:28:43 [notice] 1#0: signal 17 (SIGCHLD) received from 9
+2019/01/09 10:28:43 [notice] 1#0: signal 17 (SIGCHLD) received from 9
+2019/01/09 10:28:43 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 10:28:43 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 10:28:43 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 10:28:43 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 10:28:43 [notice] 1#0: signal 17 (SIGCHLD) received from 8
+2019/01/09 10:28:43 [notice] 1#0: signal 17 (SIGCHLD) received from 8
+2019/01/09 10:28:43 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 10:28:43 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 10:28:43 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 10:28:43 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 10:28:43 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 10:28:43 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 10:28:43 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 10:28:43 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 10:28:43 [notice] 1#0: exit
+2019/01/09 10:28:43 [notice] 1#0: exit
+2019/01/09 10:29:02 [notice] 1#0: using the "epoll" event method
+2019/01/09 10:29:02 [notice] 1#0: using the "epoll" event method
+2019/01/09 10:29:02 [notice] 1#0: nginx/1.14.0
+2019/01/09 10:29:02 [notice] 1#0: nginx/1.14.0
+2019/01/09 10:29:02 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 10:29:02 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 10:29:02 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 10:29:02 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 10:29:02 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 10:29:02 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 10:29:02 [notice] 1#0: start worker processes
+2019/01/09 10:29:02 [notice] 1#0: start worker processes
+2019/01/09 10:29:02 [notice] 1#0: start worker process 6
+2019/01/09 10:29:02 [notice] 1#0: start worker process 6
+2019/01/09 10:29:02 [notice] 1#0: start worker process 7
+2019/01/09 10:29:02 [notice] 1#0: start worker process 7
+2019/01/09 10:29:02 [notice] 1#0: start worker process 8
+2019/01/09 10:29:02 [notice] 1#0: start worker process 8
+2019/01/09 10:29:02 [notice] 1#0: start worker process 9
+2019/01/09 10:29:02 [notice] 1#0: start worker process 9
+2019/01/09 10:29:22 [info] 6#0: *2 client closed connection while waiting for request, client: 172.18.0.1, server: 0.0.0.0:80
+2019/01/09 10:29:35 [info] 6#0: *9 client closed connection while waiting for request, client: 172.18.0.1, server: 0.0.0.0:80
+2019/01/09 10:30:16 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 10:30:16 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 10:30:16 [notice] 6#0: exiting
+2019/01/09 10:30:16 [notice] 6#0: exiting
+2019/01/09 10:30:16 [notice] 6#0: exit
+2019/01/09 10:30:16 [notice] 8#0: exiting
+2019/01/09 10:30:16 [notice] 8#0: exiting
+2019/01/09 10:30:16 [notice] 9#0: exiting
+2019/01/09 10:30:16 [notice] 9#0: exiting
+2019/01/09 10:30:16 [notice] 7#0: exiting
+2019/01/09 10:30:16 [notice] 7#0: exiting
+2019/01/09 10:30:16 [notice] 1#0: signal 17 (SIGCHLD) received from 6
+2019/01/09 10:30:16 [notice] 1#0: signal 17 (SIGCHLD) received from 6
+2019/01/09 10:30:16 [notice] 8#0: exit
+2019/01/09 10:30:16 [notice] 9#0: exit
+2019/01/09 10:30:16 [notice] 7#0: exit
+2019/01/09 10:30:16 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 10:30:16 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 10:30:16 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 10:30:16 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 10:30:16 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 10:30:16 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 10:30:16 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 10:30:16 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 10:30:16 [notice] 1#0: exit
+2019/01/09 10:30:16 [notice] 1#0: exit
+2019/01/09 10:30:34 [notice] 1#0: using the "epoll" event method
+2019/01/09 10:30:34 [notice] 1#0: using the "epoll" event method
+2019/01/09 10:30:34 [notice] 1#0: nginx/1.14.0
+2019/01/09 10:30:34 [notice] 1#0: nginx/1.14.0
+2019/01/09 10:30:34 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 10:30:34 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 10:30:34 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 10:30:34 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 10:30:34 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 10:30:34 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 10:30:34 [notice] 1#0: start worker processes
+2019/01/09 10:30:34 [notice] 1#0: start worker processes
+2019/01/09 10:30:34 [notice] 1#0: start worker process 8
+2019/01/09 10:30:34 [notice] 1#0: start worker process 8
+2019/01/09 10:30:34 [notice] 1#0: start worker process 9
+2019/01/09 10:30:34 [notice] 1#0: start worker process 9
+2019/01/09 10:30:34 [notice] 1#0: start worker process 10
+2019/01/09 10:30:34 [notice] 1#0: start worker process 10
+2019/01/09 10:30:34 [notice] 1#0: start worker process 11
+2019/01/09 10:30:34 [notice] 1#0: start worker process 11
+2019/01/09 10:30:54 [info] 11#0: *1 client closed connection while waiting for request, client: 172.18.0.1, server: 0.0.0.0:80
+2019/01/09 10:32:01 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 10:32:01 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 10:32:01 [notice] 8#0: exiting
+2019/01/09 10:32:01 [notice] 8#0: exiting
+2019/01/09 10:32:01 [notice] 10#0: exiting
+2019/01/09 10:32:01 [notice] 10#0: exiting
+2019/01/09 10:32:01 [notice] 9#0: exiting
+2019/01/09 10:32:01 [notice] 9#0: exiting
+2019/01/09 10:32:01 [notice] 11#0: exiting
+2019/01/09 10:32:01 [notice] 11#0: exiting
+2019/01/09 10:32:01 [notice] 8#0: exit
+2019/01/09 10:32:01 [notice] 10#0: exit
+2019/01/09 10:32:01 [notice] 1#0: signal 17 (SIGCHLD) received from 8
+2019/01/09 10:32:01 [notice] 1#0: signal 17 (SIGCHLD) received from 8
+2019/01/09 10:32:01 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 10:32:01 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 10:32:01 [notice] 1#0: worker process 10 exited with code 0
+2019/01/09 10:32:01 [notice] 1#0: worker process 10 exited with code 0
+2019/01/09 10:32:01 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 10:32:01 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 10:32:01 [notice] 1#0: signal 17 (SIGCHLD) received from 10
+2019/01/09 10:32:01 [notice] 1#0: signal 17 (SIGCHLD) received from 10
+2019/01/09 10:32:01 [notice] 9#0: exit
+2019/01/09 10:32:01 [notice] 11#0: exit
+2019/01/09 10:32:01 [notice] 1#0: signal 17 (SIGCHLD) received from 9
+2019/01/09 10:32:01 [notice] 1#0: signal 17 (SIGCHLD) received from 9
+2019/01/09 10:32:01 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 10:32:01 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 10:32:01 [notice] 1#0: worker process 11 exited with code 0
+2019/01/09 10:32:01 [notice] 1#0: worker process 11 exited with code 0
+2019/01/09 10:32:01 [notice] 1#0: exit
+2019/01/09 10:32:01 [notice] 1#0: exit
+2019/01/09 10:32:24 [notice] 1#0: using the "epoll" event method
+2019/01/09 10:32:24 [notice] 1#0: using the "epoll" event method
+2019/01/09 10:32:24 [notice] 1#0: nginx/1.14.0
+2019/01/09 10:32:24 [notice] 1#0: nginx/1.14.0
+2019/01/09 10:32:24 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 10:32:24 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 10:32:24 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 10:32:24 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 10:32:24 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 10:32:24 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 10:32:24 [notice] 1#0: start worker processes
+2019/01/09 10:32:24 [notice] 1#0: start worker processes
+2019/01/09 10:32:24 [notice] 1#0: start worker process 6
+2019/01/09 10:32:24 [notice] 1#0: start worker process 6
+2019/01/09 10:32:24 [notice] 1#0: start worker process 7
+2019/01/09 10:32:24 [notice] 1#0: start worker process 7
+2019/01/09 10:32:24 [notice] 1#0: start worker process 8
+2019/01/09 10:32:24 [notice] 1#0: start worker process 8
+2019/01/09 10:32:24 [notice] 1#0: start worker process 9
+2019/01/09 10:32:24 [notice] 1#0: start worker process 9
+2019/01/09 10:32:47 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 10:32:47 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 10:32:47 [notice] 6#0: exiting
+2019/01/09 10:32:47 [notice] 6#0: exiting
+2019/01/09 10:32:47 [notice] 6#0: exit
+2019/01/09 10:32:47 [notice] 8#0: exiting
+2019/01/09 10:32:47 [notice] 8#0: exiting
+2019/01/09 10:32:47 [notice] 7#0: exiting
+2019/01/09 10:32:47 [notice] 7#0: exiting
+2019/01/09 10:32:47 [notice] 8#0: exit
+2019/01/09 10:32:47 [notice] 7#0: exit
+2019/01/09 10:32:47 [notice] 9#0: exiting
+2019/01/09 10:32:47 [notice] 9#0: exiting
+2019/01/09 10:32:47 [notice] 9#0: exit
+2019/01/09 10:32:47 [notice] 1#0: signal 17 (SIGCHLD) received from 8
+2019/01/09 10:32:47 [notice] 1#0: signal 17 (SIGCHLD) received from 8
+2019/01/09 10:32:47 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 10:32:47 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 10:32:47 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 10:32:47 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 10:32:47 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 10:32:47 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 10:32:47 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 10:32:47 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 10:32:47 [notice] 1#0: exit
+2019/01/09 10:32:47 [notice] 1#0: exit
+2019/01/09 10:32:56 [notice] 1#0: using the "epoll" event method
+2019/01/09 10:32:56 [notice] 1#0: using the "epoll" event method
+2019/01/09 10:32:56 [notice] 1#0: nginx/1.14.0
+2019/01/09 10:32:56 [notice] 1#0: nginx/1.14.0
+2019/01/09 10:32:56 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 10:32:56 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 10:32:56 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 10:32:56 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 10:32:56 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 10:32:56 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 10:32:56 [notice] 1#0: start worker processes
+2019/01/09 10:32:56 [notice] 1#0: start worker processes
+2019/01/09 10:32:56 [notice] 1#0: start worker process 6
+2019/01/09 10:32:56 [notice] 1#0: start worker process 6
+2019/01/09 10:32:56 [notice] 1#0: start worker process 7
+2019/01/09 10:32:56 [notice] 1#0: start worker process 7
+2019/01/09 10:32:56 [notice] 1#0: start worker process 8
+2019/01/09 10:32:56 [notice] 1#0: start worker process 8
+2019/01/09 10:32:56 [notice] 1#0: start worker process 9
+2019/01/09 10:32:56 [notice] 1#0: start worker process 9
+2019/01/09 10:33:05 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 10:33:05 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 10:33:05 [notice] 7#0: exiting
+2019/01/09 10:33:05 [notice] 7#0: exiting
+2019/01/09 10:33:05 [notice] 6#0: exiting
+2019/01/09 10:33:05 [notice] 6#0: exiting
+2019/01/09 10:33:05 [notice] 8#0: exiting
+2019/01/09 10:33:05 [notice] 8#0: exiting
+2019/01/09 10:33:05 [notice] 9#0: exiting
+2019/01/09 10:33:05 [notice] 7#0: exit
+2019/01/09 10:33:05 [notice] 6#0: exit
+2019/01/09 10:33:05 [notice] 8#0: exit
+2019/01/09 10:33:05 [notice] 9#0: exiting
+2019/01/09 10:33:05 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 10:33:05 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 10:33:05 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 10:33:05 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 10:33:05 [notice] 9#0: exit
+2019/01/09 10:33:05 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 10:33:05 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 10:33:05 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 10:33:05 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 10:33:05 [notice] 1#0: signal 17 (SIGCHLD) received from 6
+2019/01/09 10:33:05 [notice] 1#0: signal 17 (SIGCHLD) received from 6
+2019/01/09 10:33:05 [notice] 1#0: signal 17 (SIGCHLD) received from 8
+2019/01/09 10:33:05 [notice] 1#0: signal 17 (SIGCHLD) received from 8
+2019/01/09 10:33:05 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 10:33:05 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 10:33:05 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 10:33:05 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 10:33:05 [notice] 1#0: exit
+2019/01/09 10:33:05 [notice] 1#0: exit
+2019/01/09 10:33:41 [notice] 1#0: using the "epoll" event method
+2019/01/09 10:33:41 [notice] 1#0: using the "epoll" event method
+2019/01/09 10:33:41 [notice] 1#0: nginx/1.14.0
+2019/01/09 10:33:41 [notice] 1#0: nginx/1.14.0
+2019/01/09 10:33:41 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 10:33:41 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 10:33:41 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 10:33:41 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 10:33:41 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 10:33:41 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 10:33:41 [notice] 1#0: start worker processes
+2019/01/09 10:33:41 [notice] 1#0: start worker processes
+2019/01/09 10:33:41 [notice] 1#0: start worker process 6
+2019/01/09 10:33:41 [notice] 1#0: start worker process 6
+2019/01/09 10:33:41 [notice] 1#0: start worker process 7
+2019/01/09 10:33:41 [notice] 1#0: start worker process 7
+2019/01/09 10:33:41 [notice] 1#0: start worker process 8
+2019/01/09 10:33:41 [notice] 1#0: start worker process 8
+2019/01/09 10:33:41 [notice] 1#0: start worker process 9
+2019/01/09 10:33:41 [notice] 1#0: start worker process 9
+2019/01/09 10:35:09 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 10:35:09 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 10:35:09 [notice] 7#0: exiting
+2019/01/09 10:35:09 [notice] 7#0: exiting
+2019/01/09 10:35:09 [notice] 9#0: exiting
+2019/01/09 10:35:09 [notice] 6#0: exiting
+2019/01/09 10:35:09 [notice] 6#0: exiting
+2019/01/09 10:35:09 [notice] 8#0: exiting
+2019/01/09 10:35:09 [notice] 8#0: exiting
+2019/01/09 10:35:09 [notice] 7#0: exit
+2019/01/09 10:35:09 [notice] 9#0: exiting
+2019/01/09 10:35:09 [notice] 6#0: exit
+2019/01/09 10:35:09 [notice] 8#0: exit
+2019/01/09 10:35:09 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 10:35:09 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 10:35:09 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 10:35:09 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 10:35:09 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 10:35:09 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 10:35:09 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 10:35:09 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 10:35:09 [notice] 9#0: exit
+2019/01/09 10:35:09 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 10:35:09 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 10:35:09 [notice] 1#0: signal 17 (SIGCHLD) received from 6
+2019/01/09 10:35:09 [notice] 1#0: signal 17 (SIGCHLD) received from 6
+2019/01/09 10:35:09 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 10:35:09 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 10:35:09 [notice] 1#0: exit
+2019/01/09 10:35:09 [notice] 1#0: exit
+2019/01/09 10:35:23 [notice] 1#0: using the "epoll" event method
+2019/01/09 10:35:23 [notice] 1#0: using the "epoll" event method
+2019/01/09 10:35:23 [notice] 1#0: nginx/1.14.0
+2019/01/09 10:35:23 [notice] 1#0: nginx/1.14.0
+2019/01/09 10:35:23 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 10:35:23 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 10:35:23 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 10:35:23 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 10:35:23 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 10:35:23 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 10:35:23 [notice] 1#0: start worker processes
+2019/01/09 10:35:23 [notice] 1#0: start worker processes
+2019/01/09 10:35:23 [notice] 1#0: start worker process 6
+2019/01/09 10:35:23 [notice] 1#0: start worker process 6
+2019/01/09 10:35:23 [notice] 1#0: start worker process 7
+2019/01/09 10:35:23 [notice] 1#0: start worker process 7
+2019/01/09 10:35:23 [notice] 1#0: start worker process 8
+2019/01/09 10:35:23 [notice] 1#0: start worker process 8
+2019/01/09 10:35:23 [notice] 1#0: start worker process 9
+2019/01/09 10:35:23 [notice] 1#0: start worker process 9
+2019/01/09 10:41:45 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 10:41:45 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 10:41:45 [notice] 6#0: exiting
+2019/01/09 10:41:45 [notice] 6#0: exiting
+2019/01/09 10:41:45 [notice] 7#0: exiting
+2019/01/09 10:41:45 [notice] 7#0: exiting
+2019/01/09 10:41:45 [notice] 7#0: exit
+2019/01/09 10:41:45 [notice] 9#0: exiting
+2019/01/09 10:41:45 [notice] 9#0: exiting
+2019/01/09 10:41:45 [notice] 8#0: exiting
+2019/01/09 10:41:45 [notice] 8#0: exiting
+2019/01/09 10:41:45 [notice] 8#0: exit
+2019/01/09 10:41:45 [notice] 6#0: exit
+2019/01/09 10:41:45 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 10:41:45 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 10:41:45 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 10:41:45 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 10:41:45 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 10:41:45 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 10:41:45 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 10:41:45 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 10:41:45 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 10:41:45 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 10:41:45 [notice] 1#0: signal 17 (SIGCHLD) received from 8
+2019/01/09 10:41:45 [notice] 1#0: signal 17 (SIGCHLD) received from 8
+2019/01/09 10:41:45 [notice] 9#0: exit
+2019/01/09 10:41:45 [notice] 1#0: signal 17 (SIGCHLD) received from 9
+2019/01/09 10:41:45 [notice] 1#0: signal 17 (SIGCHLD) received from 9
+2019/01/09 10:41:45 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 10:41:45 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 10:41:45 [notice] 1#0: exit
+2019/01/09 10:41:45 [notice] 1#0: exit
+2019/01/09 10:41:52 [notice] 1#0: using the "epoll" event method
+2019/01/09 10:41:52 [notice] 1#0: using the "epoll" event method
+2019/01/09 10:41:52 [notice] 1#0: nginx/1.14.0
+2019/01/09 10:41:52 [notice] 1#0: nginx/1.14.0
+2019/01/09 10:41:52 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 10:41:52 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 10:41:52 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 10:41:52 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 10:41:52 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 10:41:52 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 10:41:52 [notice] 1#0: start worker processes
+2019/01/09 10:41:52 [notice] 1#0: start worker processes
+2019/01/09 10:41:52 [notice] 1#0: start worker process 7
+2019/01/09 10:41:52 [notice] 1#0: start worker process 7
+2019/01/09 10:41:52 [notice] 1#0: start worker process 8
+2019/01/09 10:41:52 [notice] 1#0: start worker process 8
+2019/01/09 10:41:52 [notice] 1#0: start worker process 9
+2019/01/09 10:41:52 [notice] 1#0: start worker process 9
+2019/01/09 10:41:52 [notice] 1#0: start worker process 10
+2019/01/09 10:41:52 [notice] 1#0: start worker process 10
+2019/01/09 10:43:08 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 10:43:08 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 10:43:08 [notice] 8#0: exiting
+2019/01/09 10:43:08 [notice] 8#0: exiting
+2019/01/09 10:43:08 [notice] 7#0: exiting
+2019/01/09 10:43:08 [notice] 7#0: exiting
+2019/01/09 10:43:08 [notice] 8#0: exit
+2019/01/09 10:43:08 [notice] 7#0: exit
+2019/01/09 10:43:08 [notice] 9#0: exiting
+2019/01/09 10:43:08 [notice] 9#0: exiting
+2019/01/09 10:43:08 [notice] 9#0: exit
+2019/01/09 10:43:08 [notice] 10#0: exiting
+2019/01/09 10:43:08 [notice] 10#0: exiting
+2019/01/09 10:43:08 [notice] 10#0: exit
+2019/01/09 10:43:08 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 10:43:08 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 10:43:08 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 10:43:08 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 10:43:08 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 10:43:08 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 10:43:08 [notice] 1#0: signal 17 (SIGCHLD) received from 9
+2019/01/09 10:43:08 [notice] 1#0: signal 17 (SIGCHLD) received from 9
+2019/01/09 10:43:08 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 10:43:08 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 10:43:08 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 10:43:08 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 10:43:08 [notice] 1#0: worker process 10 exited with code 0
+2019/01/09 10:43:08 [notice] 1#0: worker process 10 exited with code 0
+2019/01/09 10:43:08 [notice] 1#0: exit
+2019/01/09 10:43:08 [notice] 1#0: exit
+2019/01/09 10:43:28 [notice] 1#0: using the "epoll" event method
+2019/01/09 10:43:28 [notice] 1#0: using the "epoll" event method
+2019/01/09 10:43:28 [notice] 1#0: nginx/1.14.0
+2019/01/09 10:43:28 [notice] 1#0: nginx/1.14.0
+2019/01/09 10:43:28 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 10:43:28 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 10:43:28 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 10:43:28 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 10:43:28 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 10:43:28 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 10:43:28 [notice] 1#0: start worker processes
+2019/01/09 10:43:28 [notice] 1#0: start worker processes
+2019/01/09 10:43:28 [notice] 1#0: start worker process 6
+2019/01/09 10:43:28 [notice] 1#0: start worker process 6
+2019/01/09 10:43:28 [notice] 1#0: start worker process 7
+2019/01/09 10:43:28 [notice] 1#0: start worker process 7
+2019/01/09 10:43:28 [notice] 1#0: start worker process 8
+2019/01/09 10:43:28 [notice] 1#0: start worker process 8
+2019/01/09 10:43:28 [notice] 1#0: start worker process 9
+2019/01/09 10:43:28 [notice] 1#0: start worker process 9
+2019/01/09 10:52:28 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 10:52:28 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 10:52:28 [notice] 9#0: exiting
+2019/01/09 10:52:28 [notice] 6#0: exiting
+2019/01/09 10:52:28 [notice] 6#0: exiting
+2019/01/09 10:52:28 [notice] 6#0: exit
+2019/01/09 10:52:28 [notice] 7#0: exiting
+2019/01/09 10:52:28 [notice] 7#0: exiting
+2019/01/09 10:52:28 [notice] 8#0: exiting
+2019/01/09 10:52:28 [notice] 8#0: exiting
+2019/01/09 10:52:28 [notice] 9#0: exiting
+2019/01/09 10:52:28 [notice] 1#0: signal 17 (SIGCHLD) received from 6
+2019/01/09 10:52:28 [notice] 1#0: signal 17 (SIGCHLD) received from 6
+2019/01/09 10:52:28 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 10:52:28 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 10:52:28 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 10:52:28 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 10:52:28 [notice] 7#0: exit
+2019/01/09 10:52:28 [notice] 8#0: exit
+2019/01/09 10:52:28 [notice] 9#0: exit
+2019/01/09 10:52:28 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 10:52:28 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 10:52:28 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 10:52:28 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 10:52:28 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 10:52:28 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 10:52:28 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 10:52:28 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 10:52:28 [notice] 1#0: signal 17 (SIGCHLD) received from 9
+2019/01/09 10:52:28 [notice] 1#0: signal 17 (SIGCHLD) received from 9
+2019/01/09 10:52:28 [notice] 1#0: signal 17 (SIGCHLD) received from 8
+2019/01/09 10:52:28 [notice] 1#0: signal 17 (SIGCHLD) received from 8
+2019/01/09 10:52:28 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 10:52:28 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 10:52:28 [notice] 1#0: exit
+2019/01/09 10:52:28 [notice] 1#0: exit
+2019/01/09 10:52:46 [notice] 1#0: using the "epoll" event method
+2019/01/09 10:52:46 [notice] 1#0: using the "epoll" event method
+2019/01/09 10:52:46 [notice] 1#0: nginx/1.14.0
+2019/01/09 10:52:46 [notice] 1#0: nginx/1.14.0
+2019/01/09 10:52:46 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 10:52:46 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 10:52:46 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 10:52:46 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 10:52:46 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 10:52:46 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 10:52:46 [notice] 1#0: start worker processes
+2019/01/09 10:52:46 [notice] 1#0: start worker processes
+2019/01/09 10:52:46 [notice] 1#0: start worker process 6
+2019/01/09 10:52:46 [notice] 1#0: start worker process 6
+2019/01/09 10:52:46 [notice] 1#0: start worker process 7
+2019/01/09 10:52:46 [notice] 1#0: start worker process 7
+2019/01/09 10:52:46 [notice] 1#0: start worker process 8
+2019/01/09 10:52:46 [notice] 1#0: start worker process 8
+2019/01/09 10:52:46 [notice] 1#0: start worker process 9
+2019/01/09 10:52:46 [notice] 1#0: start worker process 9
+2019/01/09 10:53:51 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 10:53:51 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 10:53:51 [notice] 6#0: exiting
+2019/01/09 10:53:51 [notice] 6#0: exiting
+2019/01/09 10:53:51 [notice] 6#0: exit
+2019/01/09 10:53:51 [notice] 7#0: exiting
+2019/01/09 10:53:51 [notice] 7#0: exiting
+2019/01/09 10:53:51 [notice] 8#0: exiting
+2019/01/09 10:53:51 [notice] 8#0: exiting
+2019/01/09 10:53:51 [notice] 9#0: exiting
+2019/01/09 10:53:51 [notice] 1#0: signal 17 (SIGCHLD) received from 6
+2019/01/09 10:53:51 [notice] 1#0: signal 17 (SIGCHLD) received from 6
+2019/01/09 10:53:51 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 10:53:51 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 10:53:51 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 10:53:51 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 10:53:51 [notice] 7#0: exit
+2019/01/09 10:53:51 [notice] 8#0: exit
+2019/01/09 10:53:51 [notice] 9#0: exiting
+2019/01/09 10:53:51 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 10:53:51 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 10:53:51 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 10:53:51 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 10:53:51 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 10:53:51 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 10:53:51 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 10:53:51 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 10:53:51 [notice] 1#0: signal 17 (SIGCHLD) received from 8
+2019/01/09 10:53:51 [notice] 1#0: signal 17 (SIGCHLD) received from 8
+2019/01/09 10:53:51 [notice] 9#0: exit
+2019/01/09 10:53:51 [notice] 1#0: signal 17 (SIGCHLD) received from 9
+2019/01/09 10:53:51 [notice] 1#0: signal 17 (SIGCHLD) received from 9
+2019/01/09 10:53:51 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 10:53:51 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 10:53:51 [notice] 1#0: exit
+2019/01/09 10:53:51 [notice] 1#0: exit
+2019/01/09 10:53:58 [notice] 1#0: using the "epoll" event method
+2019/01/09 10:53:58 [notice] 1#0: using the "epoll" event method
+2019/01/09 10:53:58 [notice] 1#0: nginx/1.14.0
+2019/01/09 10:53:58 [notice] 1#0: nginx/1.14.0
+2019/01/09 10:53:58 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 10:53:58 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 10:53:58 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 10:53:58 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 10:53:58 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 10:53:58 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 10:53:58 [notice] 1#0: start worker processes
+2019/01/09 10:53:58 [notice] 1#0: start worker processes
+2019/01/09 10:53:58 [notice] 1#0: start worker process 6
+2019/01/09 10:53:58 [notice] 1#0: start worker process 6
+2019/01/09 10:53:58 [notice] 1#0: start worker process 7
+2019/01/09 10:53:58 [notice] 1#0: start worker process 7
+2019/01/09 10:53:58 [notice] 1#0: start worker process 8
+2019/01/09 10:53:58 [notice] 1#0: start worker process 8
+2019/01/09 10:53:58 [notice] 1#0: start worker process 9
+2019/01/09 10:53:58 [notice] 1#0: start worker process 9
+2019/01/09 10:54:22 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 10:54:22 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 10:54:22 [notice] 7#0: exiting
+2019/01/09 10:54:22 [notice] 7#0: exiting
+2019/01/09 10:54:22 [notice] 6#0: exiting
+2019/01/09 10:54:22 [notice] 6#0: exiting
+2019/01/09 10:54:22 [notice] 6#0: exit
+2019/01/09 10:54:22 [notice] 9#0: exiting
+2019/01/09 10:54:22 [notice] 9#0: exiting
+2019/01/09 10:54:22 [notice] 8#0: exiting
+2019/01/09 10:54:22 [notice] 7#0: exit
+2019/01/09 10:54:22 [notice] 1#0: signal 17 (SIGCHLD) received from 6
+2019/01/09 10:54:22 [notice] 1#0: signal 17 (SIGCHLD) received from 6
+2019/01/09 10:54:22 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 10:54:22 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 10:54:22 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 10:54:22 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 10:54:22 [notice] 9#0: exit
+2019/01/09 10:54:22 [notice] 8#0: exiting
+2019/01/09 10:54:22 [notice] 8#0: exit
+2019/01/09 10:54:22 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 10:54:22 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 10:54:22 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 10:54:22 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 10:54:22 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 10:54:22 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 10:54:22 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 10:54:22 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 10:54:22 [notice] 1#0: exit
+2019/01/09 10:54:22 [notice] 1#0: exit
+2019/01/09 10:54:41 [notice] 1#0: using the "epoll" event method
+2019/01/09 10:54:41 [notice] 1#0: using the "epoll" event method
+2019/01/09 10:54:41 [notice] 1#0: nginx/1.14.0
+2019/01/09 10:54:41 [notice] 1#0: nginx/1.14.0
+2019/01/09 10:54:41 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 10:54:41 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 10:54:41 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 10:54:41 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 10:54:41 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 10:54:41 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 10:54:41 [notice] 1#0: start worker processes
+2019/01/09 10:54:41 [notice] 1#0: start worker processes
+2019/01/09 10:54:41 [notice] 1#0: start worker process 6
+2019/01/09 10:54:41 [notice] 1#0: start worker process 6
+2019/01/09 10:54:41 [notice] 1#0: start worker process 7
+2019/01/09 10:54:41 [notice] 1#0: start worker process 7
+2019/01/09 10:54:41 [notice] 1#0: start worker process 8
+2019/01/09 10:54:41 [notice] 1#0: start worker process 8
+2019/01/09 10:54:41 [notice] 1#0: start worker process 9
+2019/01/09 10:54:41 [notice] 1#0: start worker process 9
+2019/01/09 11:22:09 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 11:22:09 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 11:22:09 [notice] 9#0: exiting
+2019/01/09 11:22:09 [notice] 9#0: exiting
+2019/01/09 11:22:09 [notice] 9#0: exit
+2019/01/09 11:22:09 [notice] 8#0: exiting
+2019/01/09 11:22:09 [notice] 8#0: exiting
+2019/01/09 11:22:09 [notice] 8#0: exit
+2019/01/09 11:22:09 [notice] 6#0: exiting
+2019/01/09 11:22:09 [notice] 6#0: exiting
+2019/01/09 11:22:09 [notice] 6#0: exit
+2019/01/09 11:22:09 [notice] 7#0: exiting
+2019/01/09 11:22:09 [notice] 7#0: exiting
+2019/01/09 11:22:09 [notice] 1#0: signal 17 (SIGCHLD) received from 9
+2019/01/09 11:22:09 [notice] 1#0: signal 17 (SIGCHLD) received from 9
+2019/01/09 11:22:09 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 11:22:09 [notice] 7#0: exit
+2019/01/09 11:22:09 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 11:22:09 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 11:22:09 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 11:22:09 [notice] 1#0: signal 17 (SIGCHLD) received from 6
+2019/01/09 11:22:09 [notice] 1#0: signal 17 (SIGCHLD) received from 6
+2019/01/09 11:22:09 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 11:22:09 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 11:22:09 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 11:22:09 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 11:22:09 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 11:22:09 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 11:22:09 [notice] 1#0: signal 17 (SIGCHLD) received from 8
+2019/01/09 11:22:09 [notice] 1#0: signal 17 (SIGCHLD) received from 8
+2019/01/09 11:22:09 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 11:22:09 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 11:22:09 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 11:22:09 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 11:22:09 [notice] 1#0: exit
+2019/01/09 11:22:09 [notice] 1#0: exit
+2019/01/09 11:22:17 [notice] 1#0: using the "epoll" event method
+2019/01/09 11:22:17 [notice] 1#0: using the "epoll" event method
+2019/01/09 11:22:17 [notice] 1#0: nginx/1.14.0
+2019/01/09 11:22:17 [notice] 1#0: nginx/1.14.0
+2019/01/09 11:22:17 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 11:22:17 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 11:22:17 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 11:22:17 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 11:22:17 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 11:22:17 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 11:22:17 [notice] 1#0: start worker processes
+2019/01/09 11:22:17 [notice] 1#0: start worker processes
+2019/01/09 11:22:17 [notice] 1#0: start worker process 6
+2019/01/09 11:22:17 [notice] 1#0: start worker process 6
+2019/01/09 11:22:17 [notice] 1#0: start worker process 7
+2019/01/09 11:22:17 [notice] 1#0: start worker process 7
+2019/01/09 11:22:17 [notice] 1#0: start worker process 8
+2019/01/09 11:22:17 [notice] 1#0: start worker process 8
+2019/01/09 11:22:17 [notice] 1#0: start worker process 9
+2019/01/09 11:22:17 [notice] 1#0: start worker process 9
+2019/01/09 11:22:23 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 11:22:23 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 11:22:23 [notice] 6#0: exiting
+2019/01/09 11:22:23 [notice] 6#0: exiting
+2019/01/09 11:22:23 [notice] 6#0: exit
+2019/01/09 11:22:23 [notice] 8#0: exiting
+2019/01/09 11:22:23 [notice] 8#0: exiting
+2019/01/09 11:22:23 [notice] 8#0: exit
+2019/01/09 11:22:23 [notice] 9#0: exiting
+2019/01/09 11:22:23 [notice] 7#0: exiting
+2019/01/09 11:22:23 [notice] 7#0: exiting
+2019/01/09 11:22:23 [notice] 7#0: exit
+2019/01/09 11:22:23 [notice] 9#0: exiting
+2019/01/09 11:22:23 [notice] 9#0: exit
+2019/01/09 11:22:23 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 11:22:23 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 11:22:23 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 11:22:23 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 11:22:23 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 11:22:23 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 11:22:23 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 11:22:23 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 11:22:23 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 11:22:23 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 11:22:23 [notice] 1#0: exit
+2019/01/09 11:22:23 [notice] 1#0: exit
+2019/01/09 11:22:41 [notice] 1#0: using the "epoll" event method
+2019/01/09 11:22:41 [notice] 1#0: using the "epoll" event method
+2019/01/09 11:22:41 [notice] 1#0: nginx/1.14.0
+2019/01/09 11:22:41 [notice] 1#0: nginx/1.14.0
+2019/01/09 11:22:41 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 11:22:41 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 11:22:41 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 11:22:41 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 11:22:41 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 11:22:41 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 11:22:41 [notice] 1#0: start worker processes
+2019/01/09 11:22:41 [notice] 1#0: start worker processes
+2019/01/09 11:22:41 [notice] 1#0: start worker process 6
+2019/01/09 11:22:41 [notice] 1#0: start worker process 6
+2019/01/09 11:22:41 [notice] 1#0: start worker process 7
+2019/01/09 11:22:41 [notice] 1#0: start worker process 7
+2019/01/09 11:22:41 [notice] 1#0: start worker process 8
+2019/01/09 11:22:41 [notice] 1#0: start worker process 8
+2019/01/09 11:22:41 [notice] 1#0: start worker process 9
+2019/01/09 11:22:41 [notice] 1#0: start worker process 9
+2019/01/09 11:22:54 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 11:22:54 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 11:22:54 [notice] 7#0: exiting
+2019/01/09 11:22:54 [notice] 7#0: exiting
+2019/01/09 11:22:54 [notice] 7#0: exit
+2019/01/09 11:22:54 [notice] 6#0: exiting
+2019/01/09 11:22:54 [notice] 6#0: exiting
+2019/01/09 11:22:54 [notice] 8#0: exiting
+2019/01/09 11:22:54 [notice] 8#0: exiting
+2019/01/09 11:22:54 [notice] 9#0: exiting
+2019/01/09 11:22:54 [notice] 9#0: exiting
+2019/01/09 11:22:54 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 11:22:54 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 11:22:54 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 11:22:54 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 11:22:54 [notice] 6#0: exit
+2019/01/09 11:22:54 [notice] 8#0: exit
+2019/01/09 11:22:54 [notice] 9#0: exit
+2019/01/09 11:22:54 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 11:22:54 [notice] 1#0: signal 17 (SIGCHLD) received from 6
+2019/01/09 11:22:54 [notice] 1#0: signal 17 (SIGCHLD) received from 6
+2019/01/09 11:22:54 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 11:22:54 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 11:22:54 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 11:22:54 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 11:22:54 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 11:22:54 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 11:22:54 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 11:22:54 [notice] 1#0: exit
+2019/01/09 11:22:54 [notice] 1#0: exit
+2019/01/09 11:23:25 [notice] 1#0: using the "epoll" event method
+2019/01/09 11:23:25 [notice] 1#0: using the "epoll" event method
+2019/01/09 11:23:25 [notice] 1#0: nginx/1.14.0
+2019/01/09 11:23:25 [notice] 1#0: nginx/1.14.0
+2019/01/09 11:23:25 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 11:23:25 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 11:23:25 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 11:23:25 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 11:23:25 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 11:23:25 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 11:23:25 [notice] 1#0: start worker processes
+2019/01/09 11:23:25 [notice] 1#0: start worker processes
+2019/01/09 11:23:25 [notice] 1#0: start worker process 6
+2019/01/09 11:23:25 [notice] 1#0: start worker process 6
+2019/01/09 11:23:25 [notice] 1#0: start worker process 7
+2019/01/09 11:23:25 [notice] 1#0: start worker process 7
+2019/01/09 11:23:25 [notice] 1#0: start worker process 8
+2019/01/09 11:23:25 [notice] 1#0: start worker process 8
+2019/01/09 11:23:25 [notice] 1#0: start worker process 9
+2019/01/09 11:23:25 [notice] 1#0: start worker process 9
+2019/01/09 11:29:35 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 11:29:35 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 11:29:35 [notice] 8#0: exiting
+2019/01/09 11:29:35 [notice] 8#0: exiting
+2019/01/09 11:29:35 [notice] 8#0: exit
+2019/01/09 11:29:35 [notice] 9#0: exiting
+2019/01/09 11:29:35 [notice] 9#0: exiting
+2019/01/09 11:29:35 [notice] 9#0: exit
+2019/01/09 11:29:35 [notice] 6#0: exiting
+2019/01/09 11:29:35 [notice] 6#0: exiting
+2019/01/09 11:29:35 [notice] 6#0: exit
+2019/01/09 11:29:35 [notice] 7#0: exiting
+2019/01/09 11:29:35 [notice] 7#0: exiting
+2019/01/09 11:29:35 [notice] 7#0: exit
+2019/01/09 11:29:35 [notice] 1#0: signal 17 (SIGCHLD) received from 9
+2019/01/09 11:29:35 [notice] 1#0: signal 17 (SIGCHLD) received from 9
+2019/01/09 11:29:35 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 11:29:35 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 11:29:35 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 11:29:35 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 11:29:35 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 11:29:35 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 11:29:35 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 11:29:35 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 11:29:35 [notice] 1#0: signal 17 (SIGCHLD) received from 8
+2019/01/09 11:29:35 [notice] 1#0: signal 17 (SIGCHLD) received from 8
+2019/01/09 11:29:35 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 11:29:35 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 11:29:35 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 11:29:35 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 11:29:35 [notice] 1#0: signal 17 (SIGCHLD) received from 6
+2019/01/09 11:29:35 [notice] 1#0: signal 17 (SIGCHLD) received from 6
+2019/01/09 11:29:35 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 11:29:35 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 11:29:35 [notice] 1#0: exit
+2019/01/09 11:29:35 [notice] 1#0: exit
+2019/01/09 11:29:53 [notice] 1#0: using the "epoll" event method
+2019/01/09 11:29:53 [notice] 1#0: using the "epoll" event method
+2019/01/09 11:29:53 [notice] 1#0: nginx/1.14.0
+2019/01/09 11:29:53 [notice] 1#0: nginx/1.14.0
+2019/01/09 11:29:53 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 11:29:53 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 11:29:53 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 11:29:53 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 11:29:53 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 11:29:53 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 11:29:53 [notice] 1#0: start worker processes
+2019/01/09 11:29:53 [notice] 1#0: start worker processes
+2019/01/09 11:29:53 [notice] 1#0: start worker process 6
+2019/01/09 11:29:53 [notice] 1#0: start worker process 6
+2019/01/09 11:29:53 [notice] 1#0: start worker process 7
+2019/01/09 11:29:53 [notice] 1#0: start worker process 7
+2019/01/09 11:29:53 [notice] 1#0: start worker process 8
+2019/01/09 11:29:53 [notice] 1#0: start worker process 8
+2019/01/09 11:29:53 [notice] 1#0: start worker process 9
+2019/01/09 11:29:53 [notice] 1#0: start worker process 9
+2019/01/09 11:30:08 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 11:30:08 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 11:30:08 [notice] 9#0: exiting
+2019/01/09 11:30:08 [notice] 9#0: exiting
+2019/01/09 11:30:08 [notice] 6#0: exiting
+2019/01/09 11:30:08 [notice] 6#0: exiting
+2019/01/09 11:30:08 [notice] 9#0: exit
+2019/01/09 11:30:08 [notice] 6#0: exit
+2019/01/09 11:30:08 [notice] 8#0: exiting
+2019/01/09 11:30:08 [notice] 8#0: exiting
+2019/01/09 11:30:08 [notice] 8#0: exit
+2019/01/09 11:30:08 [notice] 7#0: exiting
+2019/01/09 11:30:08 [notice] 7#0: exiting
+2019/01/09 11:30:08 [notice] 7#0: exit
+2019/01/09 11:30:08 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 11:30:08 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 11:30:08 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 11:30:08 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 11:30:08 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 11:30:08 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 11:30:08 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 11:30:08 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 11:30:08 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 11:30:08 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 11:30:08 [notice] 1#0: exit
+2019/01/09 11:30:08 [notice] 1#0: exit
+2019/01/09 11:30:17 [notice] 1#0: using the "epoll" event method
+2019/01/09 11:30:17 [notice] 1#0: using the "epoll" event method
+2019/01/09 11:30:17 [notice] 1#0: nginx/1.14.0
+2019/01/09 11:30:17 [notice] 1#0: nginx/1.14.0
+2019/01/09 11:30:17 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 11:30:17 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 11:30:17 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 11:30:17 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 11:30:17 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 11:30:17 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 11:30:17 [notice] 1#0: start worker processes
+2019/01/09 11:30:17 [notice] 1#0: start worker processes
+2019/01/09 11:30:17 [notice] 1#0: start worker process 6
+2019/01/09 11:30:17 [notice] 1#0: start worker process 6
+2019/01/09 11:30:17 [notice] 1#0: start worker process 7
+2019/01/09 11:30:17 [notice] 1#0: start worker process 7
+2019/01/09 11:30:17 [notice] 1#0: start worker process 8
+2019/01/09 11:30:17 [notice] 1#0: start worker process 8
+2019/01/09 11:30:17 [notice] 1#0: start worker process 9
+2019/01/09 11:30:17 [notice] 1#0: start worker process 9
+2019/01/09 11:31:02 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 11:31:02 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 11:31:02 [notice] 6#0: exiting
+2019/01/09 11:31:02 [notice] 6#0: exiting
+2019/01/09 11:31:02 [notice] 9#0: exiting
+2019/01/09 11:31:02 [notice] 9#0: exiting
+2019/01/09 11:31:02 [notice] 7#0: exiting
+2019/01/09 11:31:02 [notice] 7#0: exiting
+2019/01/09 11:31:02 [notice] 8#0: exiting
+2019/01/09 11:31:02 [notice] 8#0: exiting
+2019/01/09 11:31:02 [notice] 6#0: exit
+2019/01/09 11:31:02 [notice] 9#0: exit
+2019/01/09 11:31:02 [notice] 1#0: signal 17 (SIGCHLD) received from 6
+2019/01/09 11:31:02 [notice] 1#0: signal 17 (SIGCHLD) received from 6
+2019/01/09 11:31:02 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 11:31:02 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 11:31:02 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 11:31:02 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 11:31:02 [notice] 7#0: exit
+2019/01/09 11:31:02 [notice] 8#0: exit
+2019/01/09 11:31:02 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 11:31:02 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 11:31:02 [notice] 1#0: signal 17 (SIGCHLD) received from 9
+2019/01/09 11:31:02 [notice] 1#0: signal 17 (SIGCHLD) received from 9
+2019/01/09 11:31:02 [notice] 1#0: signal 17 (SIGCHLD) received from 8
+2019/01/09 11:31:02 [notice] 1#0: signal 17 (SIGCHLD) received from 8
+2019/01/09 11:31:02 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 11:31:02 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 11:31:02 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 11:31:02 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 11:31:02 [notice] 1#0: exit
+2019/01/09 11:31:02 [notice] 1#0: exit
+2019/01/09 11:34:44 [notice] 1#0: using the "epoll" event method
+2019/01/09 11:34:44 [notice] 1#0: using the "epoll" event method
+2019/01/09 11:34:44 [notice] 1#0: nginx/1.14.0
+2019/01/09 11:34:44 [notice] 1#0: nginx/1.14.0
+2019/01/09 11:34:44 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 11:34:44 [notice] 1#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+2019/01/09 11:34:44 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 11:34:44 [notice] 1#0: OS: Linux 4.9.125-linuxkit
+2019/01/09 11:34:44 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 11:34:44 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 11:34:44 [notice] 1#0: start worker processes
+2019/01/09 11:34:44 [notice] 1#0: start worker processes
+2019/01/09 11:34:44 [notice] 1#0: start worker process 6
+2019/01/09 11:34:44 [notice] 1#0: start worker process 6
+2019/01/09 11:34:44 [notice] 1#0: start worker process 7
+2019/01/09 11:34:44 [notice] 1#0: start worker process 7
+2019/01/09 11:34:44 [notice] 1#0: start worker process 8
+2019/01/09 11:34:44 [notice] 1#0: start worker process 8
+2019/01/09 11:34:44 [notice] 1#0: start worker process 9
+2019/01/09 11:34:44 [notice] 1#0: start worker process 9
+2019/01/09 11:50:50 [error] 7#0: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: local-api.injar.cn, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/01/09 11:50:50 [error] 7#0: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: local-api.injar.cn, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/01/09 11:50:50 [error] 7#0: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: local-api.injar.cn, request: "GET /phpinfo.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/01/09 11:51:46 [info] 6#0: *4 client 172.18.0.1 closed keepalive connection
+2019/01/09 11:51:50 [info] 6#0: *2 client timed out (110: Connection timed out) while waiting for request, client: 172.18.0.1, server: 0.0.0.0:80
+2019/01/09 11:51:52 [info] 7#0: *6 client 172.18.0.1 closed keepalive connection
+2019/01/09 11:51:58 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 11:51:58 [notice] 1#0: signal 15 (SIGTERM) received, exiting
+2019/01/09 11:51:58 [notice] 6#0: exiting
+2019/01/09 11:51:58 [notice] 6#0: exiting
+2019/01/09 11:51:58 [notice] 9#0: exiting
+2019/01/09 11:51:58 [notice] 9#0: exiting
+2019/01/09 11:51:58 [notice] 8#0: exiting
+2019/01/09 11:51:58 [notice] 8#0: exiting
+2019/01/09 11:51:58 [notice] 7#0: exiting
+2019/01/09 11:51:58 [notice] 7#0: exiting
+2019/01/09 11:51:58 [notice] 7#0: exit
+2019/01/09 11:51:58 [notice] 6#0: exit
+2019/01/09 11:51:58 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 11:51:58 [notice] 1#0: signal 17 (SIGCHLD) received from 7
+2019/01/09 11:51:58 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 11:51:58 [notice] 1#0: worker process 6 exited with code 0
+2019/01/09 11:51:58 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 11:51:58 [notice] 1#0: worker process 7 exited with code 0
+2019/01/09 11:51:58 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 11:51:58 [notice] 1#0: signal 29 (SIGIO) received
+2019/01/09 11:51:58 [notice] 1#0: signal 17 (SIGCHLD) received from 6
+2019/01/09 11:51:58 [notice] 1#0: signal 17 (SIGCHLD) received from 6
+2019/01/09 11:51:58 [notice] 9#0: exit
+2019/01/09 11:51:58 [notice] 8#0: exit
+2019/01/09 11:51:58 [notice] 1#0: signal 17 (SIGCHLD) received from 8
+2019/01/09 11:51:58 [notice] 1#0: signal 17 (SIGCHLD) received from 8
+2019/01/09 11:51:58 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 11:51:58 [notice] 1#0: worker process 8 exited with code 0
+2019/01/09 11:51:58 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 11:51:58 [notice] 1#0: worker process 9 exited with code 0
+2019/01/09 11:51:58 [notice] 1#0: exit
+2019/01/09 11:51:58 [notice] 1#0: exit

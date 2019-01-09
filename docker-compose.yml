@@ -33,5 +33,3 @@ services:
         volumes:
             - ./mysql/my.cnf:/usr/local/mysql/etc/my.cnf
             - ./mysql/data:/usr/local/mysql/data:rw
-            - ./mysql/error.log:/usr/local/mysql/data/error.log
-            - ./mysql/general.log:/usr/local/mysql/data/general.log
