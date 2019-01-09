@@ -27,6 +27,7 @@ RUN yum -y install gcc gcc-c++ wget git make zip unzip autoconf libxml2 libxml2-
     && make install \
     && ln -s /usr/local/php/bin/php /usr/local/bin/php \
     && yum clean all
+RUN echo "Asia/shanghai" > /etc/timezone
 COPY php-fpm.conf /usr/local/php/etc/php-fpm.conf
 COPY www.conf /usr/local/php/etc/php-fpm.d/www.conf
 COPY php.ini /usr/local/php/lib/php.ini

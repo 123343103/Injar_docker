@@ -19,6 +19,7 @@ RUN yum -y install gcc gcc-c++ wget cmake make ncurses-devel openssl-devel \
     && cd /usr/local/mysql \
     && bin/mysqld --initialize-insecure --user=root \
     && yum clean all
+RUN echo "Asia/shanghai" > /etc/timezone
 COPY my.cnf /usr/local/mysql/etc/my.cnf
 EXPOSE 3306
 CMD ["/usr/local/mysql/bin/mysqld_safe"]
