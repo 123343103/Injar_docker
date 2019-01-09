@@ -8,6 +8,7 @@ RUN yum -y install gcc gcc-c++ wget git make zip unzip autoconf libxml2 libxml2-
     && ./configure --prefix=/usr/local/php \
 		--enable-fpm \
 		--enable-mysqlnd \
+		--with-mysql \
 		--with-mysqli \
 		--with-pdo-mysql \
 		--enable-mbstring \
