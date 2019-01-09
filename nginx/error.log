@@ -1435,3 +1435,13 @@
 2019/01/09 01:59:18 [notice] 1#0: OS: Linux 4.9.125-linuxkit
 2019/01/09 01:59:18 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
 2019/01/09 01:59:18 [notice] 1#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/01/09 01:59:18 [notice] 1#0: start worker processes
+2019/01/09 01:59:18 [notice] 1#0: start worker processes
+2019/01/09 01:59:18 [notice] 1#0: start worker process 6
+2019/01/09 01:59:18 [notice] 1#0: start worker process 6
+2019/01/09 01:59:18 [notice] 1#0: start worker process 7
+2019/01/09 01:59:18 [notice] 1#0: start worker process 7
+2019/01/09 01:59:18 [notice] 1#0: start worker process 8
+2019/01/09 01:59:18 [notice] 1#0: start worker process 8
+2019/01/09 01:59:18 [notice] 1#0: start worker process 9
+2019/01/09 01:59:18 [notice] 1#0: start worker process 9
