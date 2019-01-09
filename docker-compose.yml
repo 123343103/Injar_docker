@@ -1,0 +1,35 @@
+version: "3"
+services:
+    nginx:
+        build: ./nginx
+        image: nginx:1.14
+        ports:
+            - "80:80"
+            - "3001:3001"
+            - "3002:3002"
+        volumes:
+            - ./nginx/nginx.conf:/usr/local/nginx/conf/nginx.conf
+            - ./nginx/fastcgi_params:/usr/local/nginx/conf/fastcgi_params
+            - ./nginx/error.log:/usr/local/nginx/logs/error.log
+            - ./nginx/access.log:/usr/local/nginx/logs/access.log
+            - ./projects:/usr/local/nginx/html
+        depends_on:
+            - php-fpm
+    php-fpm:
+        build: ./php
+        image: php:5.6
+        volumes:
+            - ./php/php-fpm.conf:/usr/local/php/ext/php-fpm.conf
+            - ./php/www.conf:/usr/local/php/ext/php-fpm.d/www.conf
+            - ./php/php.ini:/usr/local/php/lib/php.ini
+            - ./projects:/usr/local/nginx/html
+        depends_on:
+            - mysqld
+    mysqld:
+        build: ./mysql
+        image: mysql:5.7
+        ports:
+            - "3306:3306"
+        volumes:
+            - ./mysql/my.cnf:/usr/local/mysql/etc/my.cnf
+            - ./mysql/data:/usr/local/mysql/data:rw
