@@ -7,3 +7,4 @@ mysql/data/ibdata1
 mysql/data/ibtmp1
 mysql/data/mysql.pid
 nginx/error.log
+nginx/access.log
