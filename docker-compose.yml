@@ -12,7 +12,7 @@ services:
             - ./nginx/fastcgi_params:/usr/local/nginx/conf/fastcgi_params
             - ./nginx/error.log:/usr/local/nginx/logs/error.log
             - ./nginx/access.log:/usr/local/nginx/logs/access.log
-            - ./projects:/usr/local/nginx/html
+            - ./projects:/projects
         depends_on:
             - php-fpm
     php-fpm:
@@ -22,7 +22,7 @@ services:
             - ./php/php-fpm.conf:/usr/local/php/ext/php-fpm.conf
             - ./php/www.conf:/usr/local/php/ext/php-fpm.d/www.conf
             - ./php/php.ini:/usr/local/php/lib/php.ini
-            - ./projects:/usr/local/nginx/html
+            - ./projects:/projects
         depends_on:
             - mysqld
     mysqld:
@@ -33,3 +33,14 @@ services:
         volumes:
             - ./mysql/my.cnf:/usr/local/mysql/etc/my.cnf
             - ./mysql/data:/usr/local/mysql/data:rw
+    node:
+        build: ./node
+        image: node:10.15
+        ports:
+            - "3000:3000"
+        volumes:
+            - ./node/yingjia_adminjs:/yingjia_adminjs
+        depends_on:
+            - nginx
+        #command: npm install #第一次启动安装模块，前提dockerfile中设置WORKDIR
+        command: npm start
