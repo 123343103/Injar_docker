@@ -1,4 +1,5 @@
 FROM centos
+ENV LANG en_US.utf8
 ENV MYSQL_MAX_VERSION 5.7
 ENV MYSQL_MIN_VERSION 24
 RUN yum -y install gcc gcc-c++ wget cmake make ncurses-devel openssl-devel \
@@ -19,6 +20,8 @@ RUN yum -y install gcc gcc-c++ wget cmake make ncurses-devel openssl-devel \
     && cd /usr/local/mysql \
     && bin/mysqld --initialize-insecure --user=root \
     && yum clean all
+RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
+    && echo 'Asia/Shanghai' > /etc/timezone
 COPY my.cnf /usr/local/mysql/etc/my.cnf
 EXPOSE 3306
 CMD ["/usr/local/mysql/bin/mysqld_safe"]
