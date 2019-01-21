@@ -1,16 +1,8 @@
 <?php
-$order_money = 423548;
-$real_money = "4235.48";
-$real_money *= 100;
 
-$real_money = round($real_money);
-
-var_dump($order_money);
-var_dump($real_money);
-var_dump($order_money > $real_money);
-
-
-
+$str=file_get_contents("houseSourceModel (1).csv");
+$str = iconv('GBK','utf-8', $str);
+echo $str;
 
 
 ?>
