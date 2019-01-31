@@ -16,6 +16,7 @@ RUN yum -y install gcc gcc-c++ wget git make zip unzip autoconf libxml2 libxml2-
 		--enable-mbstring \
 		--enable-ftp \
 		--enable-soap \
+		--enable-sockets \
 		--enable-zip \
 		--enable-opcache \
 		--with-curl \
