@@ -1,15 +1,14 @@
 <?php
+$result['Base64SourceString']="eyJzaWduIjoiTUVRQ0lDL3daUlExY1cvUkkyQW83aUFpQmFkQ2VDQm1HZXdvdEk1TGRoZXZ0OW1pQWlBVDcvV0lDNi9naENtNFhrSEJaWHNUUkNNWFQ1VU0yNzk4d0Ztc3krY0VjUT09IiwiYm9keSI6IntcblwiYmFua1RyYWRlTm9cIjpcIjMyNTkyMzYwNTQ5M1wiLFxuXCJtZXJjaGFudE5vXCI6XCJNMjkwMDIwMTkwMjAwMDAwMzY4MjdcIixcblwib3JkZXJOb1wiOlwiQTAwMDEyMDE3MDYwMDAwMDAwNjkxMjAxOTAyMjMyMzM1MzUxNDIxMjdcIixcblwicGxhdGZvcm1JZFwiOlwiQTAwMDEyMDE3MDYwMDAwMDAwNjkxXCIsXG5cInNlcmlhbE5vXCI6XCIyMDE5MDIyMzIzMzUzNTAwMDA1NFwiLFxuXCJtY2hTZXFOb1wiOlwiXCIsXG5cInRyYW5zRGF0ZVwiOlwiMjAxOTAyMjNcIixcblwidHJhbnNUaW1lXCI6XCIyMzM1MzVcIixcblwicGF5VHlwZVwiOlwiQTE3VFQxMTI2NjEwMDNcIixcblwidHJhZGVTdGF0dXNcIjpcIlNcIixcblwiYW1vdW50XCI6XCIxXCIsXG5cImJhdGNoTm9cIjpcIlwiLFxuXCJjYXJkTmFtZVwiOlwiXCIsXG5cImNhcmROb1wiOlwiXCIsXG5cImNhcmRUeXBlXCI6XCJcIixcblwiY2JDb2RlXCI6XCJDRlRcIixcblwiY3VwVGVybUlkXCI6XCJcIixcblwiY3VwVHNhbU5vXCI6XCJcIixcblwiZmVlXCI6XCIwXCIsXG5cInJlZk5vXCI6XCJcIixcblwidm91Y2hlck5vXCI6XCJcIixcblwiY2VudGVyU2VxSWRcIjpcIjQyMDAwMDAyNzIyMDE5MDIyMzgxOTczMDY2MzhcIixcblwiY2VudGVySW5mb1wiOlwib3BlbmlkPW9VcEY4dUQ2NzJWd2RkYWdzOW9scEQtX0hadDh8YmFua190eXBlPUNGVHx0aW1lX2VuZD0yMDE5MDIyMzIzMzYwMnxwYXllZVNlcT00MjAwMDAwMjcyMjAxOTAyMjM4MTk3MzA2NjM4fHRyYW5zYWN0aW9uX2lkPTQyMDAwMDAyNzIyMDE5MDIyMzgxOTczMDY2Mzh8XCIsXG5cImJhbmtPcmRlck5vXCI6XCIyMDE5MDIyMzEwMDAwMDAxOTE2OFwiLFxuXCJ1c2VySURcIjpcIlwiXG59XG4ifQ==";
+// var_dump(json_decode(base64_decode($result['Base64SourceString']),true));
 
-$arr=[3,1,8,4,9,2,5,7,6,0]; 
-$len=count($arr); 
-for($i=0;$i<$len;$i++){ 
-    for($j=$i+1;$j<$len;$j++){ 
-        if($arr[$i]>$arr[$j]){ 
-            list($arr[$i],$arr[$j])=[$arr[$j],$arr[$i]]; 
-        } 
-    } 
-} 
-var_dump($arr);
+$data=base64_decode($result['Base64SourceString']);
+var_dump($data);
+ // $data=str_replace(PHP_EOL,'',$data);
+ $data = str_replace('\n', '', $data);
+ var_dump($data);
+        $data=json_decode($data,true);
+var_dump(json_decode($data['body'],true));
 
-
-?>
+$a='{"XML":"","APPID":"wx9d35e6ef2d547943","ATTACH":"142127;12339;13431,13432","BANK_TYPE":"CFT","CASH_FEE":"1","DEVICE_INFO":"WEB","FEE_TYPE":"CNY","IS_SUBSCRIBE":"Y","MCH_ID":"1503307221","NONCE_STR":"ca5lZvI2hrO3DNmu","OPENID":"oMX7RwsmhuU5BM1_sUed5qXt7_Tg","OUT_TRADE_NO":"155100671712339","RESULT_CODE":"SUCCESS","RETURN_CODE":"SUCCESS","SIGN":"195B11F5D11DF2A41E4A751582B1BA6F","TIME_END":"20190224191202","TOTAL_FEE":"1","TRADE_TYPE":"JSAPI","TRANSACTION_ID":"4200000254201902242901919556"}';
+var_dump(json_decode($a,true));
